@@ -1,5 +1,100 @@
+.input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+input:focus {
+  border-color: skyblue;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 1px solid skyblue;
+  border-radius: 5px;
+  background-color: white;
+  margin: 2px;
+}
+
+.delButton {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: whitesmoke;
+  border: 1px solid skyblue;
+  border-radius: 5px;
+  background-color: rgb(228, 73, 73);
+  margin: 2px;
+}
+
 .App {
   text-align: center;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.board {
+  background-color: aliceblue;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.post {
+  border-bottom: 1px solid #282c34;
+  padding: 15px;
+  text-align: left;
+}
+
+.post:last-child {
+  border-bottom: none;
+}
+
+.post h3 {
+  color: #333;
+}
+
+.post p {
+  color: #666;
+}
+
+.detail {
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 8px;
+  text-align: left;
+  padding: 20px;
+  background-color: rgb(141, 145, 159);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.title-nav {
+  background-color: #11262a;
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  color: white;
+}
+
+.list {
+  text-align: left;
+  padding-left: 20px;
+  border-bottom: 1px solid gray;
 }
 
 .App-logo {
